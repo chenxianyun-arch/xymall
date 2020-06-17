@@ -14,5 +14,8 @@ const router = new VueRouter({
     component: Profile
   }
 ```
-
+##3.npm i vue-router@3.0 -S
+```javascript
+选择安装vue-router3.0
+```
 
