@@ -18,4 +18,5 @@ const router = new VueRouter({
 ```javascript
 选择安装vue-router3.0
 ```
+##4.注意封装这些组件的时候先自己封装，然后再进行使用
 
