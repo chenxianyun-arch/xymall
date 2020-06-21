@@ -1,13 +1,129 @@
 <template>
-  <div>我的</div>
+  <div>
+    <scroll :probe-type="0" class="content">
+      <div>
+        <ul>
+          <li>ahahah1</li>
+          <li>ahahah2</li>
+          <li>ahahah3</li>
+          <li>ahahah4</li>
+          <li>ahahah5</li>
+          <li>ahahah6</li>
+          <li>ahahah7</li>
+          <li>ahahah8</li>
+          <li>ahahah9</li>
+          <li>ahahah10</li>
+          <li>ahahah11</li>
+          <li>ahahah12</li>
+          <li>ahahah13</li>
+          <li>ahahah14</li>
+          <li>ahahah15</li>
+          <li>ahahah16</li>
+          <li>ahahah17</li>
+          <li>ahahah18</li>
+          <li>ahahah19</li>
+          <li>ahahah20</li>
+          <li>ahahah21</li>
+          <li>ahahah22</li>
+          <li>ahahah23</li>
+          <li>ahahah24</li>
+          <li>ahahah25</li>
+          <li>ahahah26</li>
+          <li>ahahah27</li>
+          <li>ahahah28</li>
+          <li>ahahah29</li>
+          <li>ahahah30</li>
+          <li>ahahah31</li>
+          <li>ahahah32</li>
+          <li>ahahah33</li>
+          <li>ahahah34</li>
+          <li>ahahah35</li>
+          <li>ahahah36</li>
+          <li>ahahah37</li>
+          <li>ahahah38</li>
+          <li>ahahah39</li>
+          <li>ahahah40</li>
+          <li>ahahah41</li>
+          <li>ahahah42</li>
+          <li>ahahah43</li>
+          <li>ahahah44</li>
+          <li>ahahah45</li>
+          <li>ahahah46</li>
+          <li>ahahah47</li>
+          <li>ahahah48</li>
+          <li>ahahah49</li>
+          <li>ahahah50</li>
+          <li>ahahah51</li>
+          <li>ahahah52</li>
+          <li>ahahah53</li>
+          <li>ahahah54</li>
+          <li>ahahah55</li>
+          <li>ahahah56</li>
+          <li>ahahah57</li>
+          <li>ahahah58</li>
+          <li>ahahah59</li>
+          <li>ahahah60</li>
+          <li>ahahah61</li>
+          <li>ahahah62</li>
+          <li>ahahah63</li>
+          <li>ahahah64</li>
+          <li>ahahah65</li>
+          <li>ahahah66</li>
+          <li>ahahah67</li>
+          <li>ahahah68</li>
+          <li>ahahah69</li>
+          <li>ahahah70</li>
+          <li>ahahah71</li>
+          <li>ahahah72</li>
+          <li>ahahah73</li>
+          <li>ahahah74</li>
+          <li>ahahah75</li>
+          <li>ahahah76</li>
+          <li>ahahah77</li>
+          <li>ahahah78</li>
+          <li>ahahah79</li>
+          <li>ahahah80</li>
+          <li>ahahah81</li>
+          <li>ahahah82</li>
+          <li>ahahah83</li>
+          <li>ahahah84</li>
+          <li>ahahah85</li>
+          <li>ahahah86</li>
+          <li>ahahah87</li>
+          <li>ahahah88</li>
+          <li>ahahah89</li>
+          <li>ahahah90</li>
+          <li>ahahah91</li>
+          <li>ahahah92</li>
+          <li>ahahah93</li>
+          <li>ahahah94</li>
+          <li>ahahah95</li>
+          <li>ahahah96</li>
+          <li>ahahah97</li>
+          <li>ahahah98</li>
+          <li>ahahah99</li>
+          <li>ahahah100</li>
+        </ul>
+      </div>
+    </scroll>
+  </div>
+
 </template>
 
 <script>
+  import Scroll from "../../components/common/scroll/Scroll";
   export default {
-    name: "Profile"
+    name: "Profile",
+    components:{
+      Scroll
+    }
   }
 </script>
 
 <style scoped>
-
+.content{
+  height: 300px;
+  background-color: red;
+  overflow: hidden;
+}
 </style>
