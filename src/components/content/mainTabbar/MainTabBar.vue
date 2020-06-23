@@ -9,7 +9,7 @@
       <tab-bar-item path="/catagroy" active-color="deeppink">
         <img slot="item-icon" src="~assets/img/tabbar/category.svg" alt="">
         <img slot="item-active" src="~assets/img/tabbar/category_active.svg" alt="">
-        <div slot="item-text">详情</div>
+        <div slot="item-text">分类</div>
       </tab-bar-item>
       <tab-bar-item path="/cart" active-color="deeppink">
         <img slot="item-icon" src="~assets/img/tabbar/shopcart.svg" alt="">

@@ -1,6 +1,6 @@
 <template>
 <div class="goodsitem">
-  <img :src="goodsitem.show.img" alt="">
+  <img :src="goodsitem.show.img" alt="" @load="imgload">
   <div class="goodsinfo">
     <p>{{goodsitem.title}}</p>
     <span class="price">{{goodsitem.price}}</span>
@@ -12,6 +12,7 @@
 <script>
 
   export default {
+    name: "GoodsListItem",
     props:{
       goodsitem:{
         type: Object,
@@ -20,7 +21,13 @@
         }
       }
     },
-    name: "GoodsListItem"
+    methods:{
+      imgload(){
+        //发射一个bus事件，然后供home里面进行监听
+        this.$bus.$emit('itemImgLoad')
+        // console.log(this.$bus);
+      }
+    }
   }
 </script>
 

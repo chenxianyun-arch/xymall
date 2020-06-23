@@ -41,13 +41,19 @@
         this.$emit('pullingUp')
         console.log('加载更多')
       })
+      // console.log(this.scroll);
+      // this.scroll.refresh()
     },
     methods:{
       scrollTo(x,y,time=300){
-        this.scroll.scrollTo(x,y,time)
+       this.scroll && this.scrollTo && this.scroll.scrollTo(x,y,time)
       },
       finishPullUp(){
         this.scroll.finishPullUp()
+      },
+      reflash(){
+        this.scroll && this.scrollTo && this.scroll.refresh()
+        // console.log('+++');
       }
     }
   }
